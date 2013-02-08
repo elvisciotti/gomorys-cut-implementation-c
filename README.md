@@ -17,7 +17,7 @@ Written and optimised in C language.
 
 Developed at the [University of Bologna](http://corsi.unibo.it/) 2008.
 
-The technical report and code comments are writen in Italian.
+The technical report and code comments are written in Italian.
 
 Visual output in HTML+CSS (see output examples under `output-examples`).
 
