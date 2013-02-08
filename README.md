@@ -1,5 +1,5 @@
-gomorys-cut-implementation-c
-============================
+Gomory's cut implementation in C language
+=========================================
 
 Implementation of [Gomory's cut algorithm](http://en.wikipedia.org/wiki/Cutting-plane_method#Gomory.27s_cut)
 to solve the [Cutting stock problem](http://en.wikipedia.org/wiki/Cutting_stock_problem)
