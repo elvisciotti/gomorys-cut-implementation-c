@@ -3,8 +3,6 @@
 //#include <time.h>
 #include "vars.h"
 
-
-
 int main(int argc, char **argv)
 {
 
@@ -18,8 +16,6 @@ int main(int argc, char **argv)
 	if (argc>1)
 	{
 		leggiArgv(argc, argv);
-		
-		//generaPezziRandom();
 	}
 	else
 	{
@@ -40,12 +36,9 @@ int main(int argc, char **argv)
 	DEBUG_INFO = 0;
 
 	printf("inizio nc\n");	
-	calcola_minimo(); //serve a f per capire quando c'è scarto, dovrebbe velocizzare f
+	calcola_minimo();
 	normalCuts(); 
 	
-	//for (i=0; i<X; i++)
-	//	NCUTSX[i]=1;
-
 	for (i=0, pt=0; i<X; i++)
 		if (NCUTSX[i])
 			pt++;
@@ -53,7 +46,6 @@ int main(int argc, char **argv)
 
 	inizializzaF0();
 	
-    /*GO !!!!!!!*/
 	FONTSIZE=15;
 	BORDER = 1;
 	
@@ -70,7 +62,6 @@ int main(int argc, char **argv)
 	disalloca();
 
 	printf("Profitto totale: %d\n\n\ntempo: %.2f sec\n", FTOT, TEMPO_ESECUZ);
-	//system("pause");
 
 	return 0;
 }
